@@ -25,12 +25,12 @@ When `semantic-release` got setup it will do that after every successful continu
 
 This module ships with the [AngularJS Commit Message Conventions](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit) and changelog generator, but you can [define your own](#configuration) style.
 
-> ### Commit Message Format
->
-> Each commit message consists of a **header**, a **body** and a **footer**.  The header has a special
+### Commit Message Format
+
+Each commit message consists of a **header**, a **body** and a **footer**.  The header has a special
 format that includes a **type**, a **scope** and a **subject**:
->
-> ```
+
+```
 <type>(<scope>): <subject>
 <BLANK LINE>
 <body>
@@ -130,7 +130,7 @@ semanticRelease {
 }
 ```
 
-### Enable upload release files to GitHub 
+### Enable upload release files to GitHub
 
 The **ghToken** is mandatory.
 
